@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "survivalblock.actionbardamageindicator.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "client": [
+    "PlayerEntityMixin",
+    "WorldRendererMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

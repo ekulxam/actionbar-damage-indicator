@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "actionbardamageindicator",
+  "version": "${version}",
+  "name": "Actionbar Damage Indicator",
+  "description": "Remake of ToroCraft's ToroHealth Damage Indicators",
+  "authors": [
+    "Survivalblock"
+  ],
+  "contact": {
+    "homepage": "https://github.com/ekulxam/actionbar-damage-indicator",
+    "issues": "https://github.com/ekulxam/actionbar-damage-indicator",
+    "sources": "https://github.com/ekulxam/actionbar-damage-indicator"
+  },
+  "license": "GPL3",
+  "icon": "assets/actionbardamageindicator/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      "survivalblock.actionbardamageindicator.ActionbarDamageIndicator"
+    ],
+    "modmenu": [
+      "survivalblock.actionbardamageindicator.config.ModMenuIntegration"
+    ]
+  },
+  "mixins": [
+    "actionbardamageindicator.mixins.json"
+  ],
+  "suggests": {
+    "modmenu": "*"
+  },
+  "depends": {
+    "fabricloader": ">=0.14.21",
+    "fabric": "*",
+    "minecraft": "1.19.3",
+    "java": ">=17"
+  }
+}

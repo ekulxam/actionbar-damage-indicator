@@ -1,0 +1,5 @@
+{
+  "text.autoconfig.actionbardamageindicator.title": "Actionbar Damage Indicator Config",
+  "text.autoconfig.actionbardamageindicator.option.tracking_distance": "Distance",
+  "text.autoconfig.actionbardamageindicator.option.show_health": "Display mob health on hit"
+}
